@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> 
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Portfolio Website</title> 
+</head> 
+<body> 
+    <nav> 
+        <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+            Leandro <span>Alintana</span> 
+        </div> 
+        <i class="fa-solid fa-ellipsis hamburg" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100"></i> 
+        <div class="dropdown"> 
+            <div class="links"> 
+                <a href="#about" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">About</a> 
+                <a href="#projects" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">Projects</a> 
+                <a href="#contact" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">Contact</a> 
+                <i class="fa-solid fa-rectangle-xmark cancel" data-aos="fade-up" data-aos-duration="1500"></i> 
+            </div> 
+        </div> 
+    </nav> 
+    <section> 
+        <div class="main-container"> 
+            <div class="content"> 
+                <h1 data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200"> Hey I'm <span>Leandro</span></h1> 
+                <div data-aos="fade-left" data-aos-duration="1500" data-aos-delay="300" class="typewriter"> I'm a <span class ="typewriter-text"><label for=""></label></span></div> 
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="400">First-year BS Computer Science student with a growing passion for programming and software development. I'm currently learning the fundamentals of coding while building this portfolio to showcase my progress. My goal is to become a skilled software engineer and contribute to innovative solutions that make a difference.</p> 
+                <div class="social-links"> 
+                    <i class="fa-brands fa-linkedin" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"></i> 
+                    <i class="fa-brands fa-github" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"></i> 
+                    <i class="fa-brands fa-instagram" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"></i> 
+                    <i class="fa-brands fa-facebook-messenger" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"></i> 
+                </div> 
+                <button data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400">Download CV</button> 
+            </div> 
+            <div class="image" data-aos="fade-right" data-aos-duration="2000">
+                <img src="image.jpg" alt="Leandro Alintana">
+            </div> 
+    </section> 
+            <script src="script.js"></script> 
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+            <script>
+                AOS.init({ offset: 0,
+                        duration: 1000,
+                        once: true});
+            </script>
+        </body> 
+        </html>
+        
